@@ -1,0 +1,1033 @@
+Request datetime: 2019-12-20 13:43:06.230374
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2019-12-20 13:43:06.264314
+Request datetime: 2019-12-21 10:56:21.935431
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2019-12-21 10:56:21.981155
+Request datetime: 2019-12-21 10:56:30.797153
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:56:30.857180
+Request datetime: 2019-12-21 10:56:38.298972
+GET /api/v0/sizes/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/1/ - 200
+Response datetime: 2019-12-21 10:56:38.343088
+Request datetime: 2019-12-21 10:56:50.418637
+PUT /api/v0/sizes/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'FyMpkTrPdm5U7M1tnnjQ2xOFYmVMdq4WvTCreLcp5gpWyP87gZvJQSnwbSutVQVx', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary3TxZnLAhXA65SBTa
+
+Content-Disposition: form-data; name="size_name"
+
+s
+------WebKitFormBoundary3TxZnLAhXA65SBTa
+
+Content-Disposition: form-data; name="price_coef"
+
+1
+------WebKitFormBoundary3TxZnLAhXA65SBTa
+--
+
+PUT /api/v0/sizes/1/ - 200
+Response datetime: 2019-12-21 10:56:50.489190
+Request datetime: 2019-12-21 10:56:57.633057
+PUT /api/v0/sizes/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'SWd6GbGa4PdWclhqVc2nufxCepjK34phIh38A3rKWJxYDoo4OOegiA6trVSrLugS', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundarykb58hURhLZmKi2CO
+
+Content-Disposition: form-data; name="size_name"
+
+S
+------WebKitFormBoundarykb58hURhLZmKi2CO
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundarykb58hURhLZmKi2CO
+--
+
+PUT /api/v0/sizes/1/ - 200
+Response datetime: 2019-12-21 10:56:57.702226
+Request datetime: 2019-12-21 10:57:00.866822
+GET /api/v0/sizes/2/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/2/ - 404
+Response datetime: 2019-12-21 10:57:00.913521
+Not Found: /api/v0/sizes/2/
+Request datetime: 2019-12-21 10:57:11.751622
+PUT /api/v0/sizes/2/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'lCJlDvsHZgcTPChsoVGeEUMeLiGq8iiFbXznxndhRawVgFo6hxS7sfl5YOf7QI9g', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/2/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryJRaj37AJsZoVM6lp
+
+Content-Disposition: form-data; name="size_name"
+
+XS
+------WebKitFormBoundaryJRaj37AJsZoVM6lp
+
+Content-Disposition: form-data; name="price_coef"
+
+1
+------WebKitFormBoundaryJRaj37AJsZoVM6lp
+--
+
+PUT /api/v0/sizes/2/ - 404
+Response datetime: 2019-12-21 10:57:11.797947
+Not Found: /api/v0/sizes/2/
+Request datetime: 2019-12-21 10:57:19.035164
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:57:19.078524
+Request datetime: 2019-12-21 10:57:29.723885
+GET /api/v0/sizes/3/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/3/ - 200
+Response datetime: 2019-12-21 10:57:29.770518
+Request datetime: 2019-12-21 10:57:34.698716
+PUT /api/v0/sizes/3/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'Adn39TgCXb0L6bmSFxcRLuILoj9gQbpnqyd53L1cP5kNxetwy9oKzPhCBPIXyBgY', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/3/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryfahLAaeM5utc94NQ
+
+Content-Disposition: form-data; name="size_name"
+
+XS
+------WebKitFormBoundaryfahLAaeM5utc94NQ
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundaryfahLAaeM5utc94NQ
+--
+
+PUT /api/v0/sizes/3/ - 200
+Response datetime: 2019-12-21 10:57:34.754364
+Request datetime: 2019-12-21 10:57:38.397498
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:57:38.438085
+Request datetime: 2019-12-21 10:57:50.014666
+POST /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary7Fo3Cjkg3fjSb4kM
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+I2w1GC6y7bx36H0UVDFqLpUDl2t9g828ynm3AuR8Z5R5xK7yOfRjzKtuyy2QYyTJ
+------WebKitFormBoundary7Fo3Cjkg3fjSb4kM
+
+Content-Disposition: form-data; name="size_name"
+
+M
+------WebKitFormBoundary7Fo3Cjkg3fjSb4kM
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundary7Fo3Cjkg3fjSb4kM
+--
+
+POST /api/v0/sizes/ - 201
+Response datetime: 2019-12-21 10:57:50.080319
+Request datetime: 2019-12-21 10:57:55.416080
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:57:55.475112
+Request datetime: 2019-12-21 10:58:03.700321
+POST /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryFEopm9T56puAYs4z
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+wKkhC6Ud1jvCOgTk3TB4giQJ6aObBEqCm5ajwYFNTdPEfj0YWvNX4DpAjGnSj4hd
+------WebKitFormBoundaryFEopm9T56puAYs4z
+
+Content-Disposition: form-data; name="size_name"
+
+L
+------WebKitFormBoundaryFEopm9T56puAYs4z
+
+Content-Disposition: form-data; name="price_coef"
+
+1.1
+------WebKitFormBoundaryFEopm9T56puAYs4z
+--
+
+POST /api/v0/sizes/ - 201
+Response datetime: 2019-12-21 10:58:03.768714
+Request datetime: 2019-12-21 10:58:06.524939
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:58:06.602509
+Request datetime: 2019-12-21 10:58:16.151498
+POST /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sizes/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryDm9vQc0mNIY0hshA
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+8B9vqN3V06Arod9uOGsk24ySewbUsn8iYWZxkFOvS0UtPgg8HiEdQp7Jr2KBaNZT
+------WebKitFormBoundaryDm9vQc0mNIY0hshA
+
+Content-Disposition: form-data; name="size_name"
+
+XL
+------WebKitFormBoundaryDm9vQc0mNIY0hshA
+
+Content-Disposition: form-data; name="price_coef"
+
+1.2
+------WebKitFormBoundaryDm9vQc0mNIY0hshA
+--
+
+POST /api/v0/sizes/ - 201
+Response datetime: 2019-12-21 10:58:16.226954
+Request datetime: 2019-12-21 10:58:19.023713
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-21 10:58:19.074730
+Request datetime: 2019-12-21 10:58:27.114675
+GET /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/ - 200
+Response datetime: 2019-12-21 10:58:27.161613
+Request datetime: 2019-12-21 10:58:37.960881
+GET /api/v0/colors/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/1/ - 200
+Response datetime: 2019-12-21 10:58:38.009390
+Request datetime: 2019-12-21 10:58:51.623080
+PUT /api/v0/colors/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'BAjQshKD043PNBT2OzleD8SP7WJVhr6wrV9Sm9vdSYnReE0GHbx7rtrGksiCZRX7', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/colors/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary7Rd60Hwk7a8DJk4F
+
+Content-Disposition: form-data; name="color_name"
+
+Black
+------WebKitFormBoundary7Rd60Hwk7a8DJk4F
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundary7Rd60Hwk7a8DJk4F
+--
+
+PUT /api/v0/colors/1/ - 200
+Response datetime: 2019-12-21 10:58:51.665333
+Request datetime: 2019-12-21 10:59:02.620819
+GET /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/ - 200
+Response datetime: 2019-12-21 10:59:02.694859
+Request datetime: 2019-12-21 10:59:12.081505
+GET /api/v0/colors/0/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/0/ - 404
+Response datetime: 2019-12-21 10:59:12.113777
+Not Found: /api/v0/colors/0/
+Request datetime: 2019-12-21 10:59:16.816335
+GET /api/v0/colors/9/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/9/ - 200
+Response datetime: 2019-12-21 10:59:16.857594
+Request datetime: 2019-12-21 10:59:24.078787
+PUT /api/v0/colors/9/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': '0BubqWf1gxYKbAD2InkIUX6LrEHETUwoQWkdkO0B8riMCDKGBZwBIiFCEaglBknZ', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/colors/9/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryRx2QR18lCxhJjHUy
+
+Content-Disposition: form-data; name="color_name"
+
+White
+------WebKitFormBoundaryRx2QR18lCxhJjHUy
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundaryRx2QR18lCxhJjHUy
+--
+
+PUT /api/v0/colors/9/ - 200
+Response datetime: 2019-12-21 10:59:24.148991
+Request datetime: 2019-12-21 10:59:30.064835
+GET /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/ - 200
+Response datetime: 2019-12-21 10:59:30.129752
+Request datetime: 2019-12-21 10:59:38.270129
+POST /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/colors/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryAGd2Zau19ZUOB2Bx
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+IQsGiMeq3v1vMhdikO3o69B7WBDHk5IoybiIcEZ0VplxdkkWdqfhUuaY97co2vzZ
+------WebKitFormBoundaryAGd2Zau19ZUOB2Bx
+
+Content-Disposition: form-data; name="color_name"
+
+Gold
+------WebKitFormBoundaryAGd2Zau19ZUOB2Bx
+
+Content-Disposition: form-data; name="price_coef"
+
+1.2
+------WebKitFormBoundaryAGd2Zau19ZUOB2Bx
+--
+
+POST /api/v0/colors/ - 201
+Response datetime: 2019-12-21 10:59:38.361972
+Request datetime: 2019-12-21 10:59:42.339168
+GET /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/ - 200
+Response datetime: 2019-12-21 10:59:42.401256
+Request datetime: 2019-12-21 10:59:54.933075
+POST /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/colors/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryBXbezSFm8GVjqW3B
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+YTKWPFA3ljfFaHfsqiBaWeueiHNfXMiMOeAYJxlDddzHBKm6jUN3Kz35vdmWFc9n
+------WebKitFormBoundaryBXbezSFm8GVjqW3B
+
+Content-Disposition: form-data; name="color_name"
+
+Grey
+------WebKitFormBoundaryBXbezSFm8GVjqW3B
+
+Content-Disposition: form-data; name="price_coef"
+
+1.0
+------WebKitFormBoundaryBXbezSFm8GVjqW3B
+--
+
+POST /api/v0/colors/ - 201
+Response datetime: 2019-12-21 10:59:54.986788
+Request datetime: 2019-12-21 11:00:07.141298
+POST /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/colors/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryMBlW1YFapCpL8mNd
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+gNWNRUT1W8Hs4b3Dn9pqjNyYJsFdO7E468MPLMEBO21uveahgLBj787PWYeUwxvF
+------WebKitFormBoundaryMBlW1YFapCpL8mNd
+
+Content-Disposition: form-data; name="color_name"
+
+Emerald
+------WebKitFormBoundaryMBlW1YFapCpL8mNd
+
+Content-Disposition: form-data; name="price_coef"
+
+1.1
+------WebKitFormBoundaryMBlW1YFapCpL8mNd
+--
+
+POST /api/v0/colors/ - 201
+Response datetime: 2019-12-21 11:00:07.224813
+Request datetime: 2019-12-21 11:00:11.527551
+GET /api/v0/colors/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/colors/ - 200
+Response datetime: 2019-12-21 11:00:11.576326
+Request datetime: 2019-12-21 11:01:16.670832
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2019-12-21 11:01:16.717941
+Request datetime: 2019-12-21 11:01:31.657957
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2019-12-21 11:01:31.710618
+Request datetime: 2019-12-21 11:02:04.452690
+PUT /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'qROBu1mc94bXGxVahaXICUTztn7n5CkegcEDoT7M1YvZ7A2OaM9BqfsqGTG4N2bP', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryJB9gAHsl41igcA3M
+
+Content-Disposition: form-data; name="name"
+
+AIR MAX
+------WebKitFormBoundaryJB9gAHsl41igcA3M
+
+Content-Disposition: form-data; name="brand"
+
+NIKE
+------WebKitFormBoundaryJB9gAHsl41igcA3M
+
+Content-Disposition: form-data; name="material"
+
+Material
+------WebKitFormBoundaryJB9gAHsl41igcA3M
+
+Content-Disposition: form-data; name="price"
+
+4000
+------WebKitFormBoundaryJB9gAHsl41igcA3M
+--
+
+PUT /api/v0/sneakers/1/ - 200
+Response datetime: 2019-12-21 11:02:04.516546
+Request datetime: 2019-12-21 11:02:15.712982
+GET /api/v0/sneakers/3/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/3/ - 200
+Response datetime: 2019-12-21 11:02:15.772436
+Request datetime: 2019-12-21 11:03:54.199999
+PUT /api/v0/sneakers/3/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_X_CSRFTOKEN': 'ARAmomJRNpphLay4T1BlUBR3vTtSKQozqcqoieurFjJjcdFIMDNeIWqUIp2zsgfa', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/3/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary78qp1mhWnc4KPrus
+
+Content-Disposition: form-data; name="name"
+
+ YEEZY BOOST 350 V2 YECHEIL
+------WebKitFormBoundary78qp1mhWnc4KPrus
+
+Content-Disposition: form-data; name="brand"
+
+ADIDAS
+------WebKitFormBoundary78qp1mhWnc4KPrus
+
+Content-Disposition: form-data; name="material"
+
+Material
+------WebKitFormBoundary78qp1mhWnc4KPrus
+
+Content-Disposition: form-data; name="price"
+
+2000
+------WebKitFormBoundary78qp1mhWnc4KPrus
+--
+
+PUT /api/v0/sneakers/3/ - 200
+Response datetime: 2019-12-21 11:03:54.273854
+Request datetime: 2019-12-21 11:05:25.276926
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+nVWPmPYrtmvR6xXWoq4wtT1fQYQgr8xudgMRgHJ1lgPTxA4Ah2gpheA63upX9yo5
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+
+Content-Disposition: form-data; name="name"
+
+YUNG-96 CHASM
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+
+Content-Disposition: form-data; name="brand"
+
+ADIDAS
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+
+Content-Disposition: form-data; name="material"
+
+Material3
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+
+Content-Disposition: form-data; name="price"
+
+3500
+------WebKitFormBoundarynBJ7UiaFDOxAFTYN
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2019-12-21 11:05:25.329270
+Request datetime: 2019-12-21 11:05:51.382714
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+cl2yGU9LgoXWMjZ6Fz1jRyjvWEOo5W4N2GSAAMUl8ihYdm6KybdcFTSm9an5NmVo
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+
+Content-Disposition: form-data; name="name"
+
+YUNG-96 CHASM
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+
+Content-Disposition: form-data; name="brand"
+
+ADIDAS
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+
+Content-Disposition: form-data; name="material"
+
+Material3
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+
+Content-Disposition: form-data; name="price"
+
+3600
+------WebKitFormBoundarymEIOblzJNnFXJdi0
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2019-12-21 11:05:51.471602
+Request datetime: 2019-12-21 11:08:35.271693
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary2GBrPKzXiABejtFt
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+4xWdKWoS2mQVeWvrCXsY7SgmWfVBwQJeUSMfEO9sUgaXFZC5vzERVdPd9LuiegAP
+------WebKitFormBoundary2GBrPKzXiABejtFt
+
+Content-Disposition: form-data; name="name"
+
+MX-720-818
+------WebKitFormBoundary2GBrPKzXiABejtFt
+
+Content-Disposition: form-data; name="brand"
+
+NIKE
+------WebKitFormBoundary2GBrPKzXiABejtFt
+
+Content-Disposition: form-data; name="material"
+
+Material3
+------WebKitFormBoundary2GBrPKzXiABejtFt
+
+Content-Disposition: form-data; name="price"
+
+12000
+------WebKitFormBoundary2GBrPKzXiABejtFt
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2019-12-21 11:08:35.352102
+Request datetime: 2019-12-21 11:09:12.434721
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+v1kOgzbsnkdxdXrbPRwxI5GOqHu0vWpAlmaQarW2fexzE0yPItIqwqfFDd3Hdmgb
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+
+Content-Disposition: form-data; name="name"
+
+Air Zoom Pegasus 36 Trail GORE-TEX
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+
+Content-Disposition: form-data; name="brand"
+
+NIKE
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+
+Content-Disposition: form-data; name="material"
+
+Material4
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+
+Content-Disposition: form-data; name="price"
+
+10000
+------WebKitFormBoundaryBvUKo31yynyOn8Yp
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2019-12-21 11:09:12.490088
+Request datetime: 2019-12-21 11:09:17.074209
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2019-12-21 11:09:17.120172
+Request datetime: 2019-12-21 11:09:38.168078
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-21 11:09:38.254316
+Request datetime: 2019-12-21 11:09:49.186976
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryQpgfAerzKs2tFi6z
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+jVKAmtBf5RKYmyV4SuJIMJuM6AqR3KYz9gACglmPXL40NB2IL6VBA43Dj6ZyLaPa
+------WebKitFormBoundaryQpgfAerzKs2tFi6z
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundaryQpgfAerzKs2tFi6z
+
+Content-Disposition: form-data; name="id_color"
+
+9
+------WebKitFormBoundaryQpgfAerzKs2tFi6z
+
+Content-Disposition: form-data; name="id_size"
+
+3
+------WebKitFormBoundaryQpgfAerzKs2tFi6z
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:09:49.267161
+Request datetime: 2019-12-21 11:09:56.388368
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryUI4zNAVxM4Dx96AW
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+dV5mCeDrI4lHs3mevkuQ6jIHaddpr4sM3gVow6o1AYFJT6tSoWGJUEhynJM69ujn
+------WebKitFormBoundaryUI4zNAVxM4Dx96AW
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundaryUI4zNAVxM4Dx96AW
+
+Content-Disposition: form-data; name="id_color"
+
+10
+------WebKitFormBoundaryUI4zNAVxM4Dx96AW
+
+Content-Disposition: form-data; name="id_size"
+
+1
+------WebKitFormBoundaryUI4zNAVxM4Dx96AW
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:09:56.478088
+Request datetime: 2019-12-21 11:10:03.793562
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundarySUnKjZr3ty6qmGIC
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+ptYl3rV4ccREFRrXKDU8xzBW5VfI5PPffOOnXjGE46bG6UyBDf61lUaNirOpNfGQ
+------WebKitFormBoundarySUnKjZr3ty6qmGIC
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundarySUnKjZr3ty6qmGIC
+
+Content-Disposition: form-data; name="id_color"
+
+10
+------WebKitFormBoundarySUnKjZr3ty6qmGIC
+
+Content-Disposition: form-data; name="id_size"
+
+4
+------WebKitFormBoundarySUnKjZr3ty6qmGIC
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:03.891596
+Request datetime: 2019-12-21 11:10:10.019695
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundarySDK5kQdRryJNLRjD
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+N8ci9fWnogvl0OZWvdfdmb4VOGeRWBk4Dt2k37HXgaPnrR6AoPr6awDM1cNyE1bF
+------WebKitFormBoundarySDK5kQdRryJNLRjD
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundarySDK5kQdRryJNLRjD
+
+Content-Disposition: form-data; name="id_color"
+
+11
+------WebKitFormBoundarySDK5kQdRryJNLRjD
+
+Content-Disposition: form-data; name="id_size"
+
+5
+------WebKitFormBoundarySDK5kQdRryJNLRjD
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:10.092352
+Request datetime: 2019-12-21 11:10:16.281256
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryZZ3i591l0rmvGA8U
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+b57kyjdbtoYiIOnGQKAnveG2uQN7sG1n1qXmsbYLliik9RukJmMgjzfTHmmOa6SY
+------WebKitFormBoundaryZZ3i591l0rmvGA8U
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundaryZZ3i591l0rmvGA8U
+
+Content-Disposition: form-data; name="id_color"
+
+12
+------WebKitFormBoundaryZZ3i591l0rmvGA8U
+
+Content-Disposition: form-data; name="id_size"
+
+6
+------WebKitFormBoundaryZZ3i591l0rmvGA8U
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:16.386907
+Request datetime: 2019-12-21 11:10:21.871404
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryNW45Axn3uYOXljSl
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+R6Ex349Ov8eUBmTfI9H3nQAfVOqIaGW1HruzXWUon2yW2p0TBLTWbb968kZpS6NC
+------WebKitFormBoundaryNW45Axn3uYOXljSl
+
+Content-Disposition: form-data; name="id_sneaker"
+
+7
+------WebKitFormBoundaryNW45Axn3uYOXljSl
+
+Content-Disposition: form-data; name="id_color"
+
+1
+------WebKitFormBoundaryNW45Axn3uYOXljSl
+
+Content-Disposition: form-data; name="id_size"
+
+6
+------WebKitFormBoundaryNW45Axn3uYOXljSl
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:21.942422
+Request datetime: 2019-12-21 11:10:29.633972
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryEvB4P6JBGM0SLD4g
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+gpfFARIbrXeUg9oE971oQLU2iCFYZ3Ij6K5HuJtLjRyWHcvi2JdhE6tTv8eFHtzU
+------WebKitFormBoundaryEvB4P6JBGM0SLD4g
+
+Content-Disposition: form-data; name="id_sneaker"
+
+4
+------WebKitFormBoundaryEvB4P6JBGM0SLD4g
+
+Content-Disposition: form-data; name="id_color"
+
+10
+------WebKitFormBoundaryEvB4P6JBGM0SLD4g
+
+Content-Disposition: form-data; name="id_size"
+
+3
+------WebKitFormBoundaryEvB4P6JBGM0SLD4g
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:29.714315
+Request datetime: 2019-12-21 11:10:33.317010
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryNk1eNdWd5QfBJu1g
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+bEag2T8m3tuvLepq1LA4pCLNA0GA2aY41Z0iWLTWVnOxchw4UnMXdXkENwfhKAPF
+------WebKitFormBoundaryNk1eNdWd5QfBJu1g
+
+Content-Disposition: form-data; name="id_sneaker"
+
+4
+------WebKitFormBoundaryNk1eNdWd5QfBJu1g
+
+Content-Disposition: form-data; name="id_color"
+
+10
+------WebKitFormBoundaryNk1eNdWd5QfBJu1g
+
+Content-Disposition: form-data; name="id_size"
+
+4
+------WebKitFormBoundaryNk1eNdWd5QfBJu1g
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:33.400953
+Request datetime: 2019-12-21 11:10:36.034039
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryhDyNgMEVAGEIkHcB
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+zO3QqUOUJkeycwJtYcc0ZIan6NPRjL7Pp9TSkMzuBeyADzQ7ROoTN3Jejjoy1bYq
+------WebKitFormBoundaryhDyNgMEVAGEIkHcB
+
+Content-Disposition: form-data; name="id_sneaker"
+
+4
+------WebKitFormBoundaryhDyNgMEVAGEIkHcB
+
+Content-Disposition: form-data; name="id_color"
+
+10
+------WebKitFormBoundaryhDyNgMEVAGEIkHcB
+
+Content-Disposition: form-data; name="id_size"
+
+5
+------WebKitFormBoundaryhDyNgMEVAGEIkHcB
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:36.106417
+Request datetime: 2019-12-21 11:10:44.980924
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryvilJYI9BaDZIJksE
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+aFurRFaT43tTmVUMAib5AzY4qwvRGHoY00ktLxVtWXNVNY1qtUnYoUxVD24yo7fz
+------WebKitFormBoundaryvilJYI9BaDZIJksE
+
+Content-Disposition: form-data; name="id_sneaker"
+
+5
+------WebKitFormBoundaryvilJYI9BaDZIJksE
+
+Content-Disposition: form-data; name="id_color"
+
+9
+------WebKitFormBoundaryvilJYI9BaDZIJksE
+
+Content-Disposition: form-data; name="id_size"
+
+3
+------WebKitFormBoundaryvilJYI9BaDZIJksE
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:45.058022
+Request datetime: 2019-12-21 11:10:49.549565
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryzfXdufjV5oiWNXVk
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+fEC1fZH6N5SIa9MbULxrGFOsZP3f6C7i5Zs39RsGFZcKBcTPNnJku0njclCWO2YT
+------WebKitFormBoundaryzfXdufjV5oiWNXVk
+
+Content-Disposition: form-data; name="id_sneaker"
+
+5
+------WebKitFormBoundaryzfXdufjV5oiWNXVk
+
+Content-Disposition: form-data; name="id_color"
+
+9
+------WebKitFormBoundaryzfXdufjV5oiWNXVk
+
+Content-Disposition: form-data; name="id_size"
+
+5
+------WebKitFormBoundaryzfXdufjV5oiWNXVk
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:49.630332
+Request datetime: 2019-12-21 11:10:52.893102
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundary9mA3cye3fSvZl58T
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+J46JdMSsjsFyk6SeoY2haCkiGEXpfstgzpWL7ED2bmZAL9ZShAeaYXT9Taw6XSkR
+------WebKitFormBoundary9mA3cye3fSvZl58T
+
+Content-Disposition: form-data; name="id_sneaker"
+
+5
+------WebKitFormBoundary9mA3cye3fSvZl58T
+
+Content-Disposition: form-data; name="id_color"
+
+9
+------WebKitFormBoundary9mA3cye3fSvZl58T
+
+Content-Disposition: form-data; name="id_size"
+
+6
+------WebKitFormBoundary9mA3cye3fSvZl58T
+--
+
+POST /api/v0/sneak_col_siz_rel/ - 201
+Response datetime: 2019-12-21 11:10:52.966300
+Request datetime: 2019-12-21 11:10:56.941140
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-21 11:10:57.025193
+Request datetime: 2019-12-21 11:13:44.806410
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2'}
+GET /favicon.ico - 404
+Response datetime: 2019-12-21 11:13:44.822539
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 80, in __call__
+    self.process_response( request, response )
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 175, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 250, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2019-12-21 11:13:48.327403
+GET /api/v0/sneak_col_siz_rel/6/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/6/ - 200
+Response datetime: 2019-12-21 11:13:48.384604
+Request datetime: 2019-12-21 11:16:14.860056
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2019-12-21 11:16:14.874307
+Request datetime: 2019-12-21 11:45:36.924761
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-21 11:45:37.010636
+Request datetime: 2019-12-21 12:22:52.101448
+GET /api/v0/sneak_col_siz_rel/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/1/ - 404
+Response datetime: 2019-12-21 12:22:52.199917
+Not Found: /api/v0/sneak_col_siz_rel/1/
+Request datetime: 2019-12-21 12:43:31.415581
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=&id_size=
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=&id_size= - 200
+Response datetime: 2019-12-21 12:43:31.504848
+Request datetime: 2019-12-21 12:45:09.390612
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.20.1', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '9d439811-bc3b-49ee-b57d-d6017a2acf52', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-21 12:45:09.398069
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'[{"id_relation":6,"id_sneaker":1,"id_color":1,"id_size":1},{"id_relation":7,"id_sneaker":3,"id_color":9,"id_size":3},{"id_relation":8,"id_sneaker":1,"id_color":9,"id_size":3},{"id_relation":9,"id_sneaker":7,"id_color":9,"id_size":3},{"id_relation":10,"id_sneaker":7,"id_color":10,"id_size":1},{"id_relation":11,"id_sneaker":7,"id_color":10,"id_size":4},{"id_relation":12,"id_sneaker":7,"id_color":11,"id_size":5},{"id_relation":13,"id_sneaker":7,"id_color":12,"id_size":6},{"id_relation":14,"id_sneaker":7,"id_color":1,"id_size":6},{"id_relation":15,"id_sneaker":4,"id_color":10,"id_size":3},{"id_relation":16,"id_sneaker":4,"id_color":10,"id_size":4},{"id_relation":17,"id_sneaker":4,"id_color":10,"id_size":5},{"id_relation":18,"id_sneaker":5,"id_color":9,"id_size":3},{"id_relation":19,"id_sneaker":5,"id_color":9,"id_size":5},{"id_relation":20,"id_sneaker":5,"id_color":9,"id_size":6}]'
+Request datetime: 2019-12-21 12:50:53.672520
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=5&id_color=&id_size=
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=&id_size=', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=5&id_color=&id_size= - 200
+Response datetime: 2019-12-21 12:50:53.780393
+Request datetime: 2019-12-21 12:51:54.987868
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=&id_color=9&id_size=
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.20.1', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'a93fd2fc-c062-4ed8-ab82-fe4134e4087a', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=&id_color=9&id_size= - 200
+Response datetime: 2019-12-21 12:51:54.997032
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'[{"id_relation":7,"id_sneaker":3,"id_color":9,"id_size":3},{"id_relation":8,"id_sneaker":1,"id_color":9,"id_size":3},{"id_relation":9,"id_sneaker":7,"id_color":9,"id_size":3},{"id_relation":18,"id_sneaker":5,"id_color":9,"id_size":3},{"id_relation":19,"id_sneaker":5,"id_color":9,"id_size":5},{"id_relation":20,"id_sneaker":5,"id_color":9,"id_size":6}]'
+Request datetime: 2019-12-21 12:52:17.018841
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=&id_color=9
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.20.1', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '70d3a675-1f3e-493e-85b0-c30239c47c08', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=&id_color=9 - 200
+Response datetime: 2019-12-21 12:52:17.025544
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'[{"id_relation":7,"id_sneaker":3,"id_color":9,"id_size":3},{"id_relation":8,"id_sneaker":1,"id_color":9,"id_size":3},{"id_relation":9,"id_sneaker":7,"id_color":9,"id_size":3},{"id_relation":18,"id_sneaker":5,"id_color":9,"id_size":3},{"id_relation":19,"id_sneaker":5,"id_color":9,"id_size":5},{"id_relation":20,"id_sneaker":5,"id_color":9,"id_size":6}]'
+Request datetime: 2019-12-21 13:06:32.830199
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-21 13:06:32.922133
+Request datetime: 2019-12-24 09:06:44.501366
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2019-12-24 09:06:44.539303
+Request datetime: 2019-12-24 09:06:47.308350
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_SAVE_DATA': 'on', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2019-12-24 09:06:47.361755
+Request datetime: 2019-12-24 09:07:12.363019
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-24 09:07:12.410928
+Request datetime: 2019-12-24 09:07:21.339953
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=1&id_color=9&id_size=
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_SAVE_DATA': 'on', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 YaBrowser/19.12.0.358 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=1&id_color=9&id_size= - 200
+Response datetime: 2019-12-24 09:07:21.389872
+Request datetime: 2019-12-28 19:03:37.172217
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.2.252 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2019-12-28 19:03:37.256218
+Request datetime: 2019-12-28 19:03:37.760216
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.2.252 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2019-12-28 19:03:37.772218
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2019-12-28 19:04:21.477524
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.2.252 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2019-12-28 19:04:21.537708
+Request datetime: 2019-12-28 19:04:21.734497
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.2.252 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2019-12-28 19:04:21.734497
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
