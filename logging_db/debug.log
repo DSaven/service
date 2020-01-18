@@ -1031,3 +1031,845 @@ Traceback (most recent call last):
   File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
     self.logger.database_logger.resp_body = str(response.data)
 AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:24:32.270189
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-17 14:24:32.306209
+Request datetime: 2020-01-17 14:24:32.628291
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:24:32.640292
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:25:22.911506
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-17 14:25:22.956247
+Request datetime: 2020-01-17 14:25:23.088867
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:25:23.096897
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:25:29.399639
+GET /api/v0/sneakers/3/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/3/ - 200
+Response datetime: 2020-01-17 14:25:29.417404
+Request datetime: 2020-01-17 14:25:29.549332
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/3/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:25:29.557448
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:27:48.133371
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2020-01-17 14:27:48.237313
+Request datetime: 2020-01-17 14:27:48.469509
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:27:48.478598
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:28:44.513369
+POST /api/v0/sneak_col_siz_rel/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.21.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '1e900b64-4a82-484c-87e2-f0186b633e69', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+{
+    "id_sneaker": 800,
+    "id_color": 1,
+    "id_size": 1
+}
+POST /api/v0/sneak_col_siz_rel/ - 400
+Response datetime: 2020-01-17 14:28:44.520459
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'{"id_sneaker":["Invalid pk \\"800\\" - object does not exist."]}'
+Bad Request: /api/v0/sneak_col_siz_rel/
+Request datetime: 2020-01-17 14:29:57.264404
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-17 14:29:57.314945
+Request datetime: 2020-01-17 14:29:57.591404
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:29:57.598982
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 14:41:00.205125
+PATCH /api/v0/sneakers/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.21.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '9e56b72e-d288-49b4-95e2-acca6bf11bbe', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+{
+    "id_sneaker": 1,
+    "name": "AIR MAX",
+    "brand": "NIKE",
+    "material": "Material",
+    "price": 5000
+}
+PATCH /api/v0/sneakers/ - 405
+Response datetime: 2020-01-17 14:41:00.209124
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'{"detail":"Method \\"PATCH\\" not allowed."}'
+Method Not Allowed: /api/v0/sneakers/
+Internal Server Error: /api/v0/sneakers/1
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 86, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/v0/sneakers/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Request datetime: 2020-01-17 14:41:42.253947
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 14:41:42.294836
+Request datetime: 2020-01-17 14:41:42.730424
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:41:42.742957
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Internal Server Error: /api/v0/sneakers/1
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 86, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/v0/sneakers/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Request datetime: 2020-01-17 14:42:00.730614
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 14:42:00.843765
+Request datetime: 2020-01-17 14:42:01.080163
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_PRAGMA': 'no-cache', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 14:42:01.087562
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Internal Server Error: /api/v0/sneakers/1
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 86, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/v0/sneakers/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /api/v0/sneakers/1
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\middleware\common.py", line 86, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/v0/sneakers/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Request datetime: 2020-01-17 14:43:29.985079
+PATCH /api/v0/sneakers/1/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.21.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'c848545f-dbfe-4e2d-b5ac-95b93448701e', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+{
+    "name": "AIR MAX",
+    "brand": "NIKE",
+    "material": "Material",
+    "price": 5000
+}
+PATCH /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 14:43:30.000985
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, PUT, PATCH, DELETE, HEAD, OPTIONS')}
+b'{"id_sneaker":1,"name":"AIR MAX","brand":"NIKE","material":"Material","price":5000}'
+Request datetime: 2020-01-17 14:51:11.854932
+GET /api/v0/sneakers/1/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.21.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'f5d15fc3-e7af-4912-b663-945187ff538b', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 14:51:11.858931
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, PUT, PATCH, DELETE, HEAD, OPTIONS')}
+b'{"id_sneaker":1,"name":"AIR MAX","brand":"NIKE","material":"Material","price":5000}'
+Request datetime: 2020-01-17 14:51:50.412588
+PATCH /api/v0/sneakers/1/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.21.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'a0beb869-2010-4da9-8b0b-5778fc7fbf00', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive'}
+{
+    "name": "AIR MAX",
+    "brand": "NIKE",
+    "material": "Material",
+    "price": 5000
+}
+PATCH /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 14:51:50.416586
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, PUT, PATCH, DELETE, HEAD, OPTIONS')}
+b'{"id_sneaker":1,"name":"AIR MAX","brand":"NIKE","material":"Material","price":5000}'
+Request datetime: 2020-01-17 15:00:00.278344
+PATCH /api/v0/sneakers/1/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.22.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '9626f64b-a8ce-4697-9836-04d1d7c874ee', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_CONNECTION': 'keep-alive'}
+{
+    "name": "AIR MAX",
+    "brand": "NIKE",
+    "material": "Material",
+    "price": 5000
+}
+PATCH /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-17 15:00:00.285686
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, PUT, PATCH, DELETE, HEAD, OPTIONS')}
+b'{"id_sneaker":1,"name":"AIR MAX","brand":"NIKE","material":"Material","price":5000}'
+Request datetime: 2020-01-17 15:02:25.159066
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-17 15:02:25.201764
+Request datetime: 2020-01-17 15:02:25.556868
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:02:25.567303
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:02:32.856598
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-17 15:02:32.919849
+Request datetime: 2020-01-17 15:02:33.122112
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:02:33.130311
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:02:44.700413
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_SAVE_DATA': 'on', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+73Deq2gV2G6SNg5RkhABIfYAn6AnaCIiXotgkU1vUAqUejcvdTMuwAxrAC94S2zT
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="name"
+
+sdsdfsdfsdf
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="brand"
+
+sdffd
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="material"
+
+sdfsf
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="price"
+
+1
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2020-01-17 15:02:44.764592
+Request datetime: 2020-01-17 15:02:44.995528
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:02:45.004089
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:02:59.122477
+DELETE /api/v0/sneakers/8/
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.22.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '07b50bf1-8290-41fd-b8fe-578a56756327', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_CONNECTION': 'keep-alive'}
+DELETE /api/v0/sneakers/8/ - 204
+Response datetime: 2020-01-17 15:02:59.134528
+Request datetime: 2020-01-17 15:03:11.517151
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+73Deq2gV2G6SNg5RkhABIfYAn6AnaCIiXotgkU1vUAqUejcvdTMuwAxrAC94S2zT
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="name"
+
+sdsdfsdfsdf
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="brand"
+
+sdffd
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="material"
+
+sdfsf
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+
+Content-Disposition: form-data; name="price"
+
+1
+------WebKitFormBoundaryqwWj1VjLneaOGxGt
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2020-01-17 15:03:11.587013
+Request datetime: 2020-01-17 15:03:11.791226
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_PRAGMA': 'no-cache', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:03:11.797398
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:03:18.539414
+GET /api/v0/sneakers/9/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/9/ - 200
+Response datetime: 2020-01-17 15:03:18.594382
+Request datetime: 2020-01-17 15:03:18.777333
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/9/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:03:18.791079
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:03:21.434633
+DELETE /api/v0/sneakers/9/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_SAVE_DATA': 'on', 'HTTP_X_CSRFTOKEN': 'R5xrHWo9gY31QPaifGLcBLqCbTPXiPTjHqntBO9J8Sn3hShW8iX5p6ZtopoE0fKU', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/9/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+DELETE /api/v0/sneakers/9/ - 200
+Response datetime: 2020-01-17 15:03:21.534086
+Request datetime: 2020-01-17 15:05:43.146608
+PUT /api/v0/sneakers/9/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_SAVE_DATA': 'on', 'HTTP_X_CSRFTOKEN': 'cVr4zZJipskHyZW4Spvaq3AbQS7Dx4qF2gh6tRuShmEJZ23IL1H3eo923oGkfuhg', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/9/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryAuy3WhLbDbR1sBIF
+
+Content-Disposition: form-data; name="name"
+
+Ù‚˚Ù‚˚
+------WebKitFormBoundaryAuy3WhLbDbR1sBIF
+
+Content-Disposition: form-data; name="brand"
+
+Ù˚‚˚ÙÙÙ˚‚
+------WebKitFormBoundaryAuy3WhLbDbR1sBIF
+
+Content-Disposition: form-data; name="material"
+
+Ù˚‚˚‚
+------WebKitFormBoundaryAuy3WhLbDbR1sBIF
+
+Content-Disposition: form-data; name="price"
+
+1
+------WebKitFormBoundaryAuy3WhLbDbR1sBIF
+--
+
+PUT /api/v0/sneakers/9/ - 404
+Response datetime: 2020-01-17 15:05:43.182614
+Not Found: /api/v0/sneakers/9/
+Request datetime: 2020-01-17 15:05:45.704088
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:05:45.712120
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:05:46.500477
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-17 15:05:46.536507
+Request datetime: 2020-01-17 15:05:46.666054
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:05:46.678080
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:05:49.523568
+POST /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_SAVE_DATA': 'on', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+
+Content-Disposition: form-data; name="csrfmiddlewaretoken"
+
+QiRvbFS9ZbuqOOJSdQ7ErNdycp1yiWUiGDHx5xDJR5OsfRQw6sjxf8MppVAf0mLT
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+
+Content-Disposition: form-data; name="name"
+
+sdsdfsdfsdf
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+
+Content-Disposition: form-data; name="brand"
+
+sdffd
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+
+Content-Disposition: form-data; name="material"
+
+sdfsf
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+
+Content-Disposition: form-data; name="price"
+
+1
+------WebKitFormBoundaryKL8lL5u3sQzGvTLB
+--
+
+POST /api/v0/sneakers/ - 201
+Response datetime: 2020-01-17 15:05:49.565390
+Request datetime: 2020-01-17 15:05:49.674555
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:05:49.682562
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:05:56.993632
+GET /api/v0/sneakers/10/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SAVE_DATA': 'on', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/10/ - 200
+Response datetime: 2020-01-17 15:05:57.021633
+Request datetime: 2020-01-17 15:05:57.134594
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SAVE_DATA': 'on', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/10/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-17 15:05:57.142593
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-17 15:06:04.275050
+DELETE /api/v0/sneakers/10/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'text/html; q=1.0, */*', 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest', 'HTTP_SAVE_DATA': 'on', 'HTTP_X_CSRFTOKEN': 'B7Lf0W4RrECCrPE1TOvrgOOY1B1JWUs7rsBhUOPrjyWESSLFMqHk49nPe7AqEkjI', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/10/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+DELETE /api/v0/sneakers/10/ - 200
+Response datetime: 2020-01-17 15:06:04.330150
+Request datetime: 2020-01-18 12:21:22.148867
+GET /api/v0/sneakers/10/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/10/ - 404
+Response datetime: 2020-01-18 12:21:22.208822
+Not Found: /api/v0/sneakers/10/
+Request datetime: 2020-01-18 12:21:22.406213
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_PRAGMA': 'no-cache', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/10/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 12:21:22.420835
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 12:24:14.047394
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-18 12:24:14.101541
+Request datetime: 2020-01-18 12:24:14.384883
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 12:24:14.394411
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 12:48:01.670924
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 12:48:01.745206
+Request datetime: 2020-01-18 12:48:01.969597
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 12:48:01.979989
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 12:48:10.672586
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2020-01-18 12:48:10.758162
+Request datetime: 2020-01-18 12:48:11.039547
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 12:48:11.049590
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 12:48:35.290736
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3 - 200
+Response datetime: 2020-01-18 12:48:35.381307
+Request datetime: 2020-01-18 12:48:35.580313
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 12:48:35.589106
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 12:50:02.329152
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.22.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'c7096279-3df7-4932-91bf-ef6e8064fa12', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3 - 200
+Response datetime: 2020-01-18 12:50:02.338436
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'[{"id_relation":7,"id_sneaker":3,"id_color":9,"id_size":3}]'
+Request datetime: 2020-01-18 12:50:47.890736
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3
+{'HTTP_USER_AGENT': 'PostmanRuntime/7.22.0', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '9ed057be-efb1-4bcf-852d-99eba6c31376', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_CONNECTION': 'keep-alive'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=9&id_size=3 - 200
+Response datetime: 2020-01-18 12:50:47.899076
+{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}
+b'[{"id_relation":7,"id_sneaker":3,"id_color":9,"id_size":3}]'
+Request datetime: 2020-01-18 13:32:16.957182
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 13:32:16.969183
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 13:35:55.442374
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-18 13:35:55.483081
+Request datetime: 2020-01-18 13:35:55.876116
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 13:35:55.883785
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 13:38:15.716714
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 13:38:15.793216
+Request datetime: 2020-01-18 13:38:16.008772
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 13:38:16.016300
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 13:38:37.883853
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-18 13:38:37.933273
+Request datetime: 2020-01-18 13:38:38.140615
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 13:38:38.148615
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\MI\PycharmProjects\service\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 83, in __call__
+    self.process_response(request, response)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 196, in process_response
+    self._log_resp(logging.ERROR, response, logging_context)
+  File "C:\Users\MI\PycharmProjects\service\logging_db\middleware.py", line 274, in _log_resp
+    self.logger.database_logger.resp_body = str(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+Request datetime: 2020-01-18 13:40:43.683649
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-18 13:40:43.725100
+Request datetime: 2020-01-18 13:40:44.080387
+GET /favicon.ico
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /favicon.ico - 404
+Response datetime: 2020-01-18 13:40:44.087528
+Not Found: /favicon.ico
+Request datetime: 2020-01-18 13:40:57.160389
+GET /api/v0/sizes/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sizes/ - 200
+Response datetime: 2020-01-18 13:40:57.280669
+Request datetime: 2020-01-18 13:41:20.335100
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 13:41:20.385727
+Request datetime: 2020-01-18 13:41:37.384729
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 13:41:37.414426
+Request datetime: 2020-01-18 13:42:13.542431
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 13:42:13.613197
+Request datetime: 2020-01-18 13:42:22.522266
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-18 13:42:22.576882
+Request datetime: 2020-01-18 13:43:08.456282
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-18 13:43:08.503172
+Request datetime: 2020-01-18 13:43:14.497443
+GET /api/v0/sneakers/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/ - 200
+Response datetime: 2020-01-18 13:43:14.562350
+Request datetime: 2020-01-18 13:43:35.744325
+GET /api/v0/sneakers/1/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneakers/1/ - 200
+Response datetime: 2020-01-18 13:43:35.774830
+Request datetime: 2020-01-18 13:55:14.333604
+GET /
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneakers/1/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET / - 200
+Response datetime: 2020-01-18 13:55:14.357568
+Request datetime: 2020-01-18 14:12:52.104642
+GET /api/v0/sneak_col_siz_rel/
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/ - 200
+Response datetime: 2020-01-18 14:12:52.147567
+Request datetime: 2020-01-18 14:13:01.031830
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=1&id_size=
+{'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_REFERER': 'http://127.0.0.1:8000/api/v0/sneak_col_siz_rel/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCEPT_LANGUAGE': 'ru,en;q=0.9,la;q=0.8,de;q=0.7,bg;q=0.6,pl;q=0.5,pt;q=0.4,fr;q=0.3,it;q=0.2', 'HTTP_COOKIE': 'csrftoken=T7WSTZ8ntJwnDadID0BdbJ70mf8CabcbJsMUNRTXlDQp4dkmwCN6Z4GRzLHjSB3M'}
+GET /api/v0/sneak_col_siz_rel/?id_sneaker=3&id_color=1&id_size= - 200
+Response datetime: 2020-01-18 14:13:01.075750
